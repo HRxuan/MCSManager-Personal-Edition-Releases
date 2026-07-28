@@ -1,0 +1,45 @@
+{
+    "version":  "v4.8.0",
+    "previous_version":  "v4.7.9",
+    "source_repository":  "HRxuan/MCSManager-Personal-Edition",
+    "release_url":  "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.8.0",
+    "release_notes":  "# MCSManager Special Edition v4.8.0\n\n## 中文\n\n### 更新概要\n\nv4.8.0 包含 1 个问题修复提交，修复了覆盖文件对话框无法选择重命名和覆盖操作的问题。\n\n### 问题修复\n\n- **修复覆盖文件对话框的选项选择** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - 恢复重命名与覆盖选项的正常选择，避免文件冲突处理流程无法继续。\n  - 涉及文件：`\frontend/src/hooks/useFileManager.ts`\n\n### 提交清单\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) 修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题\n\n---\n\n## English\n\n### Summary\n\nv4.8.0 contains one fix that restores the rename and overwrite choices in the file overwrite dialog.\n\n### Fixes\n\n- **Restore option selection in the file overwrite dialog** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - Restores the rename and overwrite choices so file conflict handling can continue normally.\n  - Files: `\frontend/src/hooks/useFileManager.ts`\n\n### Commit Index\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) Fix the file overwrite dialog where rename and overwrite options could not be selected",
+    "release_notes_zh":  "## 中文\n\n### 更新概要\n\nv4.8.0 包含 1 个问题修复提交，修复了覆盖文件对话框无法选择重命名和覆盖操作的问题。\n\n### 问题修复\n\n- **修复覆盖文件对话框的选项选择** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - 恢复重命名与覆盖选项的正常选择，避免文件冲突处理流程无法继续。\n  - 涉及文件：`\frontend/src/hooks/useFileManager.ts`\n\n### 提交清单\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) 修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题",
+    "release_notes_en":  "## English\n\n### Summary\n\nv4.8.0 contains one fix that restores the rename and overwrite choices in the file overwrite dialog.\n\n### Fixes\n\n- **Restore option selection in the file overwrite dialog** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - Restores the rename and overwrite choices so file conflict handling can continue normally.\n  - Files: `\frontend/src/hooks/useFileManager.ts`\n\n### Commit Index\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) Fix the file overwrite dialog where rename and overwrite options could not be selected",
+    "last_updated":  "2026-07-17",
+    "released_at":  "2026-07-17T00:28:39Z",
+    "commits":  [
+                    {
+                        "hash":  "4e16e8ad2d9e58ec0dad066983e1ab2407684609",
+                        "short_hash":  "4e16e8a",
+                        "subject":  "修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题",
+                        "category":  "fixes",
+                        "files":  [
+                                      "frontend/src/hooks/useFileManager.ts"
+                                  ]
+                    }
+                ],
+    "history":  [
+                    {
+                        "version":  "v4.8.0",
+                        "release_notes":  "# MCSManager Special Edition v4.8.0\n\n## 中文\n\n### 更新概要\n\nv4.8.0 包含 1 个问题修复提交，修复了覆盖文件对话框无法选择重命名和覆盖操作的问题。\n\n### 问题修复\n\n- **修复覆盖文件对话框的选项选择** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - 恢复重命名与覆盖选项的正常选择，避免文件冲突处理流程无法继续。\n  - 涉及文件：`\frontend/src/hooks/useFileManager.ts`\n\n### 提交清单\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) 修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题\n\n---\n\n## English\n\n### Summary\n\nv4.8.0 contains one fix that restores the rename and overwrite choices in the file overwrite dialog.\n\n### Fixes\n\n- **Restore option selection in the file overwrite dialog** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - Restores the rename and overwrite choices so file conflict handling can continue normally.\n  - Files: `\frontend/src/hooks/useFileManager.ts`\n\n### Commit Index\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) Fix the file overwrite dialog where rename and overwrite options could not be selected",
+                        "release_notes_zh":  "## 中文\n\n### 更新概要\n\nv4.8.0 包含 1 个问题修复提交，修复了覆盖文件对话框无法选择重命名和覆盖操作的问题。\n\n### 问题修复\n\n- **修复覆盖文件对话框的选项选择** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - 恢复重命名与覆盖选项的正常选择，避免文件冲突处理流程无法继续。\n  - 涉及文件：`\frontend/src/hooks/useFileManager.ts`\n\n### 提交清单\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) 修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题",
+                        "release_notes_en":  "## English\n\n### Summary\n\nv4.8.0 contains one fix that restores the rename and overwrite choices in the file overwrite dialog.\n\n### Fixes\n\n- **Restore option selection in the file overwrite dialog** [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609)\n  - Restores the rename and overwrite choices so file conflict handling can continue normally.\n  - Files: `\frontend/src/hooks/useFileManager.ts`\n\n### Commit Index\n\n- [4e16e8a](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e16e8ad2d9e58ec0dad066983e1ab2407684609) Fix the file overwrite dialog where rename and overwrite options could not be selected",
+                        "date":  "2026-07-17",
+                        "released_at":  "2026-07-17T00:28:39Z",
+                        "commits":  [
+                                        {
+                                            "hash":  "4e16e8ad2d9e58ec0dad066983e1ab2407684609",
+                                            "short_hash":  "4e16e8a",
+                                            "subject":  "修复: 覆盖文件对话框无法选择重命名和覆盖选项的问题",
+                                            "category":  "fixes",
+                                            "files":  [
+                                                          "frontend/src/hooks/useFileManager.ts"
+                                                      ]
+                                        }
+                                    ],
+                        "source_repository":  "HRxuan/MCSManager-Personal-Edition",
+                        "release_url":  "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.8.0"
+                    }
+                ]
+}\n
