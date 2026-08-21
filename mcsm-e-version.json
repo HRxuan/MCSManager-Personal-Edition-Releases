@@ -1,29 +1,46 @@
 {
-  "version": "v4.8.8",
-  "previous_version": "v4.8.7",
+  "version": "v4.8.9",
+  "previous_version": "v4.8.8",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
-  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.8.8",
-  "release_notes": "# MCSManager Special Edition v4.8.8\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 0 项、优化 1 项。\n\n### 优化与重构\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - 该提交更新了相关实现：发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - 涉及文件: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### 提交清单\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 0 updates, and 1 improvements.\n\n### Improvements and Refactoring\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - This commit updates the related implementation: 发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - Files: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### Commit Index\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 2 |\n| 面板后端 / Panel | 3 |\n| 守护进程 / Daemon | 0 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 0 |\n| 其他 / Other | 0 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.8.8.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
-  "release_notes_zh": "## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 0 项、优化 1 项。\n\n### 优化与重构\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - 该提交更新了相关实现：发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - 涉及文件: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### 提交清单\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全",
-  "release_notes_en": "## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 0 updates, and 1 improvements.\n\n### Improvements and Refactoring\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - This commit updates the related implementation: 发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - Files: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### Commit Index\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全",
-  "last_updated": "2026-08-16",
-  "released_at": "2026-08-16T18:40:30.634254+00:00",
+  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.8.9",
+  "release_notes": "# MCSManager Special Edition v4.8.9\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 1 项、更新 0 项、优化 0 项。\n\n### 问题修复\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - 该提交更新了相关实现：发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - 涉及文件: `frontend/src/components/Editor.vue`\n\n### 提交清单\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 1 fixes, 0 updates, and 0 improvements.\n\n### Fixes\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - This commit updates the related implementation: 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - Files: `frontend/src/components/Editor.vue`\n\n### Commit Index\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 1 |\n| 面板后端 / Panel | 0 |\n| 守护进程 / Daemon | 0 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 0 |\n| 其他 / Other | 0 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.8.9.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
+  "release_notes_zh": "## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 1 项、更新 0 项、优化 0 项。\n\n### 问题修复\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - 该提交更新了相关实现：发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - 涉及文件: `frontend/src/components/Editor.vue`\n\n### 提交清单\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度",
+  "release_notes_en": "## English\n\n### Summary\n\nThis release contains 1 commits: 1 fixes, 0 updates, and 0 improvements.\n\n### Fixes\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - This commit updates the related implementation: 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - Files: `frontend/src/components/Editor.vue`\n\n### Commit Index\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度",
+  "last_updated": "2026-08-21",
+  "released_at": "2026-08-21T16:49:26.501894+00:00",
   "commits": [
     {
-      "hash": "eead78cadca62902465ae1f28e11e76c73e52cf4",
-      "short_hash": "eead78c",
-      "subject": "发布 v4.8.8：重构注册体验与邮件安全",
-      "category": "improvements",
+      "hash": "4e5148032838e3b868269e7a3a3ef3293fc023e2",
+      "short_hash": "4e51480",
+      "subject": "发布 v4.8.9：修复移动端文件编辑器高度",
+      "category": "fixes",
       "files": [
-        "frontend/src/widgets/LoginCard.vue",
-        "frontend/src/widgets/RedemptionRegister.vue",
-        "panel/src/app/routers/redemption_code_router.ts",
-        "panel/src/app/service/email_service.ts",
-        "panel/src/app/service/redemption_service.ts"
+        "frontend/src/components/Editor.vue"
       ]
     }
   ],
   "history": [
+    {
+      "version": "v4.8.9",
+      "release_notes": "# MCSManager Special Edition v4.8.9\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 1 项、更新 0 项、优化 0 项。\n\n### 问题修复\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - 该提交更新了相关实现：发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - 涉及文件: `frontend/src/components/Editor.vue`\n\n### 提交清单\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 1 fixes, 0 updates, and 0 improvements.\n\n### Fixes\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - This commit updates the related implementation: 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - Files: `frontend/src/components/Editor.vue`\n\n### Commit Index\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 1 |\n| 面板后端 / Panel | 0 |\n| 守护进程 / Daemon | 0 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 0 |\n| 其他 / Other | 0 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.8.9.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
+      "release_notes_zh": "## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 1 项、更新 0 项、优化 0 项。\n\n### 问题修复\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - 该提交更新了相关实现：发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - 涉及文件: `frontend/src/components/Editor.vue`\n\n### 提交清单\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度",
+      "release_notes_en": "## English\n\n### Summary\n\nThis release contains 1 commits: 1 fixes, 0 updates, and 0 improvements.\n\n### Fixes\n\n- **发布 v4\\.8\\.9：修复移动端文件编辑器高度** [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2)\n  - This commit updates the related implementation: 发布 v4\\.8\\.9：修复移动端文件编辑器高度\n  - Files: `frontend/src/components/Editor.vue`\n\n### Commit Index\n\n- [4e51480](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/4e5148032838e3b868269e7a3a3ef3293fc023e2) 发布 v4\\.8\\.9：修复移动端文件编辑器高度",
+      "date": "2026-08-21",
+      "released_at": "2026-08-21T16:49:26.501894+00:00",
+      "commits": [
+        {
+          "hash": "4e5148032838e3b868269e7a3a3ef3293fc023e2",
+          "short_hash": "4e51480",
+          "subject": "发布 v4.8.9：修复移动端文件编辑器高度",
+          "category": "fixes",
+          "files": [
+            "frontend/src/components/Editor.vue"
+          ]
+        }
+      ],
+      "source_repository": "HRxuan/MCSManager-Personal-Edition",
+      "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.8.9"
+    },
     {
       "version": "v4.8.8",
       "release_notes": "# MCSManager Special Edition v4.8.8\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 0 项、优化 1 项。\n\n### 优化与重构\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - 该提交更新了相关实现：发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - 涉及文件: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### 提交清单\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 0 updates, and 1 improvements.\n\n### Improvements and Refactoring\n\n- **发布 v4\\.8\\.8：重构注册体验与邮件安全** [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4)\n  - This commit updates the related implementation: 发布 v4\\.8\\.8：重构注册体验与邮件安全\n  - Files: `frontend/src/widgets/LoginCard.vue`, `frontend/src/widgets/RedemptionRegister.vue`, `panel/src/app/routers/redemption_code_router.ts`, `panel/src/app/service/email_service.ts`, `panel/src/app/service/redemption_service.ts`\n\n### Commit Index\n\n- [eead78c](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/eead78cadca62902465ae1f28e11e76c73e52cf4) 发布 v4\\.8\\.8：重构注册体验与邮件安全\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 2 |\n| 面板后端 / Panel | 3 |\n| 守护进程 / Daemon | 0 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 0 |\n| 其他 / Other | 0 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.8.8.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
