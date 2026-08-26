@@ -3,11 +3,11 @@
   "previous_version": "v4.8.9",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
   "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.0",
-  "release_notes": "# MCSManager Special Edition v4.9.0\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 1 项、优化 0 项。\n\n### 更新与新功能\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - 该提交更新了相关实现：发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - 涉及文件: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts`，另有 15 个文件\n\n### 提交清单\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 1 updates, and 0 improvements.\n\n### Updates and Features\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - This commit updates the related implementation: 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - Files: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts` and 15 more\n\n### Commit Index\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 6 |\n| 面板后端 / Panel | 9 |\n| 守护进程 / Daemon | 6 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 1 |\n| 其他 / Other | 5 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
-  "release_notes_zh": "## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 1 项、优化 0 项。\n\n### 更新与新功能\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - 该提交更新了相关实现：发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - 涉及文件: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts`，另有 15 个文件\n\n### 提交清单\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建",
-  "release_notes_en": "## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 1 updates, and 0 improvements.\n\n### Updates and Features\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - This commit updates the related implementation: 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - Files: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts` and 15 more\n\n### Commit Index\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建",
+  "release_notes": "## 中文\n\n### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## English\n\n### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 发布文件 / Asset：`MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 更新前请备份现有配置与数据。\n- 下载下方 Assets 中的发布文件，解压到目标目录后按对应平台方式启动。\n- Back up your configuration and data before updating.\n- Download the release archive from Assets, extract it, and start it for your platform.\n",
+  "release_notes_zh": "### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流",
+  "release_notes_en": "### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流",
   "last_updated": "2026-08-26",
-  "released_at": "2026-08-26T03:00:07.553007+00:00",
+  "released_at": "2026-08-26T03:22:48.055211+00:00",
   "commits": [
     {
       "hash": "fe15048e622e45b5278d7183e9350c968e5803f1",
@@ -43,16 +43,27 @@
         "panel/webpack.config.js",
         "prod-scripts/linux/install.sh"
       ]
+    },
+    {
+      "hash": "cb8a41d0435628f5abc2233260eb96ffb36846f3",
+      "short_hash": "cb8a41d",
+      "subject": "优化 v4.9.0 双语发布页面与工作流",
+      "category": "improvements",
+      "files": [
+        ".github/scripts/generate_release_notes.py",
+        ".github/workflows/auto-build.yml",
+        ".gitignore"
+      ]
     }
   ],
   "history": [
     {
       "version": "v4.9.0",
-      "release_notes": "# MCSManager Special Edition v4.9.0\n\n---\n\n## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 1 项、优化 0 项。\n\n### 更新与新功能\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - 该提交更新了相关实现：发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - 涉及文件: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts`，另有 15 个文件\n\n### 提交清单\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n\n---\n\n## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 1 updates, and 0 improvements.\n\n### Updates and Features\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - This commit updates the related implementation: 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - Files: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts` and 15 more\n\n### Commit Index\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n\n---\n\n## 变更范围 / Change Scope\n\n| 模块 / Area | 文件数 / Files |\n| --- | ---: |\n| 前端 / Frontend | 6 |\n| 面板后端 / Panel | 9 |\n| 守护进程 / Daemon | 6 |\n| 公共模块 / Common | 0 |\n| 工作流 / Workflow | 1 |\n| 其他 / Other | 5 |\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 文件 / File: `MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 安装 / Installation: 解压到目标目录后运行对应平台的启动脚本。\n- Installation: Extract the archive and run the startup script for your platform.\n",
-      "release_notes_zh": "## 中文\n\n### 更新概要\n\n本版本包含 1 个提交，其中修复 0 项、更新 1 项、优化 0 项。\n\n### 更新与新功能\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - 该提交更新了相关实现：发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - 涉及文件: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts`，另有 15 个文件\n\n### 提交清单\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建",
-      "release_notes_en": "## English\n\n### Summary\n\nThis release contains 1 commits: 0 fixes, 1 updates, and 0 improvements.\n\n### Updates and Features\n\n- **发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建** [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1)\n  - This commit updates the related implementation: 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建\n  - Files: `.github/workflows/auto-build.yml`, `build.bat`, `build.sh`, `daemon/package-lock.json`, `daemon/package.json`, `daemon/src/entity/file_writer.ts`, `daemon/src/routers/http_router.ts`, `daemon/webpack.config.js`, `daemon/webpack/formidable-plugin.loader.js`, `frontend/src/components/IframeBox/handler.ts`, `frontend/src/components/MyselfInfoDialog.vue`, `frontend/src/stores/useAppStateStore.ts` and 15 more\n\n### Commit Index\n\n- [fe15048](https://github.com/HRxuan/MCSManager-Personal-Edition/commit/fe15048e622e45b5278d7183e9350c968e5803f1) 发布 v4\\.9\\.0：同步上游 10\\.18\\.3 并升级单文件构建",
+      "release_notes": "## 中文\n\n### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## English\n\n### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 发布文件 / Asset：`MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 更新前请备份现有配置与数据。\n- 下载下方 Assets 中的发布文件，解压到目标目录后按对应平台方式启动。\n- Back up your configuration and data before updating.\n- Download the release archive from Assets, extract it, and start it for your platform.\n",
+      "release_notes_zh": "### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流",
+      "release_notes_en": "### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流",
       "date": "2026-08-26",
-      "released_at": "2026-08-26T03:00:07.553007+00:00",
+      "released_at": "2026-08-26T03:22:48.055211+00:00",
       "commits": [
         {
           "hash": "fe15048e622e45b5278d7183e9350c968e5803f1",
@@ -87,6 +98,17 @@
             "panel/src/app/utils/safe.ts",
             "panel/webpack.config.js",
             "prod-scripts/linux/install.sh"
+          ]
+        },
+        {
+          "hash": "cb8a41d0435628f5abc2233260eb96ffb36846f3",
+          "short_hash": "cb8a41d",
+          "subject": "优化 v4.9.0 双语发布页面与工作流",
+          "category": "improvements",
+          "files": [
+            ".github/scripts/generate_release_notes.py",
+            ".github/workflows/auto-build.yml",
+            ".gitignore"
           ]
         }
       ],
