@@ -3,11 +3,11 @@
   "previous_version": "v4.8.9",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
   "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.0",
-  "release_notes": "## 中文\n\n### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## English\n\n### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 发布文件 / Asset：`MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 更新前请备份现有配置与数据。\n- 下载下方 Assets 中的发布文件，解压到目标目录后按对应平台方式启动。\n- Back up your configuration and data before updating.\n- Download the release archive from Assets, extract it, and start it for your platform.\n",
-  "release_notes_zh": "### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流",
-  "release_notes_en": "### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流",
+  "release_notes": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates\n\n## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表\n",
+  "release_notes_zh": "## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表",
+  "release_notes_en": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates",
   "last_updated": "2026-08-26",
-  "released_at": "2026-08-26T03:22:48.055211+00:00",
+  "released_at": "2026-08-26T03:40:53.470397+00:00",
   "commits": [
     {
       "hash": "fe15048e622e45b5278d7183e9350c968e5803f1",
@@ -54,16 +54,26 @@
         ".github/workflows/auto-build.yml",
         ".gitignore"
       ]
+    },
+    {
+      "hash": "b5d84b246270da727a11765bac4e95e387f18e39",
+      "short_hash": "b5d84b2",
+      "subject": "调整 Release 为极简双语变更列表",
+      "category": "other",
+      "files": [
+        ".github/scripts/generate_release_notes.py",
+        ".github/workflows/auto-build.yml"
+      ]
     }
   ],
   "history": [
     {
       "version": "v4.9.0",
-      "release_notes": "## 中文\n\n### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## English\n\n### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流\n\n---\n\n## 下载与安装 / Download and Installation\n\n- 发布文件 / Asset：`MCSManager-Special-Edition-v4.9.0.tar.gz`\n- 更新前请备份现有配置与数据。\n- 下载下方 Assets 中的发布文件，解压到目标目录后按对应平台方式启动。\n- Back up your configuration and data before updating.\n- Download the release archive from Assets, extract it, and start it for your platform.\n",
-      "release_notes_zh": "### 版本介绍\n\n本版本包含 2 个提交，其中修复 0 项、更新 1 项、优化 1 项。\n\n### 更新内容\n\n#### 更新与新功能\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### 优化与重构\n\n- 优化 v4.9.0 双语发布页面与工作流",
-      "release_notes_en": "### Introduction\n\nThis release contains 2 commits: 0 fixes, 1 updates, and 1 improvements.\n\n### Changes\n\n#### Updates and Features\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n\n#### Improvements and Refactoring\n\n- 优化 v4.9.0 双语发布页面与工作流",
+      "release_notes": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates\n\n## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表\n",
+      "release_notes_zh": "## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表",
+      "release_notes_en": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates",
       "date": "2026-08-26",
-      "released_at": "2026-08-26T03:22:48.055211+00:00",
+      "released_at": "2026-08-26T03:40:53.470397+00:00",
       "commits": [
         {
           "hash": "fe15048e622e45b5278d7183e9350c968e5803f1",
@@ -109,6 +119,16 @@
             ".github/scripts/generate_release_notes.py",
             ".github/workflows/auto-build.yml",
             ".gitignore"
+          ]
+        },
+        {
+          "hash": "b5d84b246270da727a11765bac4e95e387f18e39",
+          "short_hash": "b5d84b2",
+          "subject": "调整 Release 为极简双语变更列表",
+          "category": "other",
+          "files": [
+            ".github/scripts/generate_release_notes.py",
+            ".github/workflows/auto-build.yml"
           ]
         }
       ],
