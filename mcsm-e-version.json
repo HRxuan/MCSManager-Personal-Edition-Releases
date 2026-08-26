@@ -1,72 +1,48 @@
 {
-  "version": "v4.9.0",
-  "previous_version": "v4.8.9",
+  "version": "v4.9.1",
+  "previous_version": "v4.9.0",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
-  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.0",
-  "release_notes": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates\n\n## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表\n",
-  "release_notes_zh": "## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表",
-  "release_notes_en": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates",
+  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.1",
+  "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复单文件构建下外观资源上传失败\n",
+  "release_notes_zh": "## 变更\n\n- 修复单文件构建下外观资源上传失败",
+  "release_notes_en": "## Change\n\n- Bug fixes and stability updates",
   "last_updated": "2026-08-26",
-  "released_at": "2026-08-26T03:40:53.470397+00:00",
+  "released_at": "2026-08-26T04:22:32.321799+00:00",
   "commits": [
     {
-      "hash": "fe15048e622e45b5278d7183e9350c968e5803f1",
-      "short_hash": "fe15048",
-      "subject": "发布 v4.9.0：同步上游 10.18.3 并升级单文件构建",
-      "category": "updates",
+      "hash": "97a1ecf2d827d467010f94f224aa625069013e39",
+      "short_hash": "97a1ecf",
+      "subject": "修复单文件构建下外观资源上传失败",
+      "category": "fixes",
       "files": [
-        ".github/workflows/auto-build.yml",
-        "build.bat",
-        "build.sh",
-        "daemon/package-lock.json",
-        "daemon/package.json",
-        "daemon/src/entity/file_writer.ts",
-        "daemon/src/routers/http_router.ts",
-        "daemon/webpack.config.js",
-        "daemon/webpack/formidable-plugin.loader.js",
-        "frontend/src/components/IframeBox/handler.ts",
-        "frontend/src/components/MyselfInfoDialog.vue",
-        "frontend/src/stores/useAppStateStore.ts",
-        "frontend/src/types/index.ts",
-        "frontend/src/widgets/Settings.vue",
-        "frontend/src/widgets/UserList.vue",
-        "languages/en_US.json",
-        "languages/zh_CN.json",
-        "panel/package-lock.json",
-        "panel/package.json",
-        "panel/src/app/entity/setting.ts",
-        "panel/src/app/routers/manage_user_router.ts",
-        "panel/src/app/routers/settings_router.ts",
-        "panel/src/app/service/instance_service.ts",
-        "panel/src/app/service/sso_service.ts",
-        "panel/src/app/utils/safe.ts",
         "panel/webpack.config.js",
-        "prod-scripts/linux/install.sh"
-      ]
-    },
-    {
-      "hash": "cb8a41d0435628f5abc2233260eb96ffb36846f3",
-      "short_hash": "cb8a41d",
-      "subject": "优化 v4.9.0 双语发布页面与工作流",
-      "category": "improvements",
-      "files": [
-        ".github/scripts/generate_release_notes.py",
-        ".github/workflows/auto-build.yml",
-        ".gitignore"
-      ]
-    },
-    {
-      "hash": "b5d84b246270da727a11765bac4e95e387f18e39",
-      "short_hash": "b5d84b2",
-      "subject": "调整 Release 为极简双语变更列表",
-      "category": "other",
-      "files": [
-        ".github/scripts/generate_release_notes.py",
-        ".github/workflows/auto-build.yml"
+        "panel/webpack/formidable-plugin.loader.js"
       ]
     }
   ],
   "history": [
+    {
+      "version": "v4.9.1",
+      "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复单文件构建下外观资源上传失败\n",
+      "release_notes_zh": "## 变更\n\n- 修复单文件构建下外观资源上传失败",
+      "release_notes_en": "## Change\n\n- Bug fixes and stability updates",
+      "date": "2026-08-26",
+      "released_at": "2026-08-26T04:22:32.321799+00:00",
+      "commits": [
+        {
+          "hash": "97a1ecf2d827d467010f94f224aa625069013e39",
+          "short_hash": "97a1ecf",
+          "subject": "修复单文件构建下外观资源上传失败",
+          "category": "fixes",
+          "files": [
+            "panel/webpack.config.js",
+            "panel/webpack/formidable-plugin.loader.js"
+          ]
+        }
+      ],
+      "source_repository": "HRxuan/MCSManager-Personal-Edition",
+      "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.1"
+    },
     {
       "version": "v4.9.0",
       "release_notes": "## Change\n\n- Feature and upstream updates\n- Build and implementation improvements\n- Other maintenance updates\n\n## 变更\n\n- 发布 v4.9.0：同步上游 10.18.3 并升级单文件构建\n- 优化 v4.9.0 双语发布页面与工作流\n- 调整 Release 为极简双语变更列表\n",
