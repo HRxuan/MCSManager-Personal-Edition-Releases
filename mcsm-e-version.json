@@ -1,26 +1,76 @@
 {
-  "version": "v4.9.1",
-  "previous_version": "v4.9.0",
+  "version": "v4.9.2",
+  "previous_version": "v4.9.1",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
-  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.1",
-  "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复单文件构建下外观资源上传失败\n",
-  "release_notes_zh": "## 变更\n\n- 修复单文件构建下外观资源上传失败",
-  "release_notes_en": "## Change\n\n- Bug fixes and stability updates",
-  "last_updated": "2026-08-26",
-  "released_at": "2026-08-26T04:22:32.321799+00:00",
+  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.2",
+  "release_notes": "## Change\n\n- Build and implementation improvements\n\n## 变更\n\n- 优化公告交互并增强 Markdown 邮件\n",
+  "release_notes_zh": "## 变更\n\n- 优化公告交互并增强 Markdown 邮件",
+  "release_notes_en": "## Change\n\n- Build and implementation improvements",
+  "last_updated": "2026-08-28",
+  "released_at": "2026-08-28T13:56:51.048523+00:00",
   "commits": [
     {
-      "hash": "97a1ecf2d827d467010f94f224aa625069013e39",
-      "short_hash": "97a1ecf",
-      "subject": "修复单文件构建下外观资源上传失败",
-      "category": "fixes",
+      "hash": "5132b8af95348f283d808d8a714ffea7734df906",
+      "short_hash": "5132b8a",
+      "subject": "优化公告交互并增强 Markdown 邮件",
+      "category": "improvements",
       "files": [
-        "panel/webpack.config.js",
-        "panel/webpack/formidable-plugin.loader.js"
+        "frontend/src/App.vue",
+        "frontend/src/components/NotificationDialog.vue",
+        "frontend/src/tools/notificationSnooze.ts",
+        "frontend/src/tools/releaseVersion.test.ts",
+        "frontend/src/tools/safe.ts",
+        "frontend/src/widgets/EmailBroadcastManager.vue",
+        "frontend/src/widgets/NotificationHistoryPage.vue",
+        "frontend/src/widgets/NotificationManager.vue",
+        "panel/package-lock.json",
+        "panel/package.json",
+        "panel/src/app/entity/notification.ts",
+        "panel/src/app/routers/email_broadcast_router.ts",
+        "panel/src/app/routers/notification_router.ts",
+        "panel/src/app/service/email_content_renderer.ts",
+        "panel/src/app/service/email_service.ts",
+        "panel/src/app/service/notification_service.ts"
       ]
     }
   ],
   "history": [
+    {
+      "version": "v4.9.2",
+      "release_notes": "## Change\n\n- Build and implementation improvements\n\n## 变更\n\n- 优化公告交互并增强 Markdown 邮件\n",
+      "release_notes_zh": "## 变更\n\n- 优化公告交互并增强 Markdown 邮件",
+      "release_notes_en": "## Change\n\n- Build and implementation improvements",
+      "date": "2026-08-28",
+      "released_at": "2026-08-28T13:56:51.048523+00:00",
+      "commits": [
+        {
+          "hash": "5132b8af95348f283d808d8a714ffea7734df906",
+          "short_hash": "5132b8a",
+          "subject": "优化公告交互并增强 Markdown 邮件",
+          "category": "improvements",
+          "files": [
+            "frontend/src/App.vue",
+            "frontend/src/components/NotificationDialog.vue",
+            "frontend/src/tools/notificationSnooze.ts",
+            "frontend/src/tools/releaseVersion.test.ts",
+            "frontend/src/tools/safe.ts",
+            "frontend/src/widgets/EmailBroadcastManager.vue",
+            "frontend/src/widgets/NotificationHistoryPage.vue",
+            "frontend/src/widgets/NotificationManager.vue",
+            "panel/package-lock.json",
+            "panel/package.json",
+            "panel/src/app/entity/notification.ts",
+            "panel/src/app/routers/email_broadcast_router.ts",
+            "panel/src/app/routers/notification_router.ts",
+            "panel/src/app/service/email_content_renderer.ts",
+            "panel/src/app/service/email_service.ts",
+            "panel/src/app/service/notification_service.ts"
+          ]
+        }
+      ],
+      "source_repository": "HRxuan/MCSManager-Personal-Edition",
+      "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.2"
+    },
     {
       "version": "v4.9.1",
       "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复单文件构建下外观资源上传失败\n",
