@@ -1,40 +1,56 @@
 {
-  "version": "v4.9.2",
-  "previous_version": "v4.9.1",
+  "version": "v4.9.3",
+  "previous_version": "v4.9.2",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
-  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.2",
-  "release_notes": "## Change\n\n- Build and implementation improvements\n\n## 变更\n\n- 优化公告交互并增强 Markdown 邮件\n",
-  "release_notes_zh": "## 变更\n\n- 优化公告交互并增强 Markdown 邮件",
-  "release_notes_en": "## Change\n\n- Build and implementation improvements",
-  "last_updated": "2026-08-28",
-  "released_at": "2026-08-28T13:56:51.048523+00:00",
+  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.3",
+  "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复应用市场显示与加载动画\n",
+  "release_notes_zh": "## 变更\n\n- 修复应用市场显示与加载动画",
+  "release_notes_en": "## Change\n\n- Bug fixes and stability updates",
+  "last_updated": "2026-09-02",
+  "released_at": "2026-09-02T14:20:50.688024+00:00",
   "commits": [
     {
-      "hash": "5132b8af95348f283d808d8a714ffea7734df906",
-      "short_hash": "5132b8a",
-      "subject": "优化公告交互并增强 Markdown 邮件",
-      "category": "improvements",
+      "hash": "b84e7f20ad413d98327028202669d13a8b6e6e44",
+      "short_hash": "b84e7f2",
+      "subject": "修复应用市场显示与加载动画",
+      "category": "fixes",
       "files": [
-        "frontend/src/App.vue",
-        "frontend/src/components/NotificationDialog.vue",
-        "frontend/src/tools/notificationSnooze.ts",
-        "frontend/src/tools/releaseVersion.test.ts",
-        "frontend/src/tools/safe.ts",
-        "frontend/src/widgets/EmailBroadcastManager.vue",
-        "frontend/src/widgets/NotificationHistoryPage.vue",
-        "frontend/src/widgets/NotificationManager.vue",
-        "panel/package-lock.json",
-        "panel/package.json",
-        "panel/src/app/entity/notification.ts",
-        "panel/src/app/routers/email_broadcast_router.ts",
-        "panel/src/app/routers/notification_router.ts",
-        "panel/src/app/service/email_content_renderer.ts",
-        "panel/src/app/service/email_service.ts",
-        "panel/src/app/service/notification_service.ts"
+        "frontend/components.d.ts",
+        "frontend/index.html",
+        "frontend/src/components/Loading.vue",
+        "frontend/src/widgets/instance/dialogs/MarketDialog.vue",
+        "frontend/src/widgets/setupApp/AppPackages.vue",
+        "frontend/src/widgets/setupApp/McPreset.vue"
       ]
     }
   ],
   "history": [
+    {
+      "version": "v4.9.3",
+      "release_notes": "## Change\n\n- Bug fixes and stability updates\n\n## 变更\n\n- 修复应用市场显示与加载动画\n",
+      "release_notes_zh": "## 变更\n\n- 修复应用市场显示与加载动画",
+      "release_notes_en": "## Change\n\n- Bug fixes and stability updates",
+      "date": "2026-09-02",
+      "released_at": "2026-09-02T14:20:50.688024+00:00",
+      "commits": [
+        {
+          "hash": "b84e7f20ad413d98327028202669d13a8b6e6e44",
+          "short_hash": "b84e7f2",
+          "subject": "修复应用市场显示与加载动画",
+          "category": "fixes",
+          "files": [
+            "frontend/components.d.ts",
+            "frontend/index.html",
+            "frontend/src/components/Loading.vue",
+            "frontend/src/widgets/instance/dialogs/MarketDialog.vue",
+            "frontend/src/widgets/setupApp/AppPackages.vue",
+            "frontend/src/widgets/setupApp/McPreset.vue"
+          ]
+        }
+      ],
+      "source_repository": "HRxuan/MCSManager-Personal-Edition",
+      "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.3"
+    },
     {
       "version": "v4.9.2",
       "release_notes": "## Change\n\n- Build and implementation improvements\n\n## 变更\n\n- 优化公告交互并增强 Markdown 邮件\n",
