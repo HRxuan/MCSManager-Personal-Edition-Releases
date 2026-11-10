@@ -1,47 +1,98 @@
 {
-  "version": "v4.9.4",
-  "previous_version": "v4.9.3",
+  "version": "v4.9.5",
+  "previous_version": "v4.9.4",
   "source_repository": "HRxuan/MCSManager-Personal-Edition",
-  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.4",
-  "release_notes": "## Change\n\n- Feature and upstream updates\n\n## 变更\n\n- 新增用户数据备份与跨节点恢复\n",
-  "release_notes_zh": "## 变更\n\n- 新增用户数据备份与跨节点恢复",
-  "release_notes_en": "## Change\n\n- Feature and upstream updates",
-  "last_updated": "2026-09-03",
-  "released_at": "2026-09-03T15:31:59.754706+00:00",
+  "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.5",
+  "release_notes": "## Change\n\n- chore: update root lockfile metadata\n- Feature and upstream updates\n\n## 变更\n\n- chore: update root lockfile metadata\n- v4.9.5：安全更新与卡密批量复制\n",
+  "release_notes_zh": "## 变更\n\n- chore: update root lockfile metadata\n- v4.9.5：安全更新与卡密批量复制",
+  "release_notes_en": "## Change\n\n- chore: update root lockfile metadata\n- Feature and upstream updates",
+  "last_updated": "2026-11-10",
+  "released_at": "2026-11-10T12:12:21.675957+00:00",
   "commits": [
     {
-      "hash": "822dc8bb906d1540f58ac2de169fbbe92b85d926",
-      "short_hash": "822dc8b",
-      "subject": "新增用户数据备份与跨节点恢复",
+      "hash": "9fb251f1ebcc45702d89005dbd3a38d1da4e69a3",
+      "short_hash": "9fb251f",
+      "subject": "chore: update root lockfile metadata",
+      "category": "improvements",
+      "files": [
+        "package-lock.json"
+      ]
+    },
+    {
+      "hash": "cd58568e769ea8fc4d19529ace519f980804a5cf",
+      "short_hash": "cd58568",
+      "subject": "v4.9.5：安全更新与卡密批量复制",
       "category": "updates",
       "files": [
-        "daemon/src/entity/instance/instance.ts",
-        "daemon/src/routers/Instance_router.ts",
+        ".github/workflows/auto-build.yml",
+        ".nvmrc",
+        "common/package-lock.json",
+        "common/package.json",
+        "daemon/package-lock.json",
+        "daemon/package.json",
         "daemon/src/routers/http_router.ts",
-        "daemon/src/routers/instance_event_router.ts",
-        "daemon/src/routers/user_transfer_router.ts",
-        "daemon/src/service/mission_passport.ts",
-        "daemon/src/service/router.ts",
-        "daemon/src/service/system_instance.ts",
+        "daemon/src/service/http.ts",
         "daemon/src/service/user_transfer_service.ts",
-        "frontend/components.d.ts",
-        "frontend/src/components/user/UserTransferDialogs.vue",
-        "frontend/src/hooks/useUserTransfer.ts",
-        "frontend/src/widgets/UserList.vue",
-        "languages/en_US.json",
-        "languages/zh_CN.json",
-        "panel/src/app/common/storage/mysql_storage.ts",
-        "panel/src/app/entity/entity_interface.ts",
-        "panel/src/app/entity/user.ts",
-        "panel/src/app/middleware/permission.ts",
-        "panel/src/app/routers/manage_user_router.ts",
-        "panel/src/app/service/passport_service.ts",
-        "panel/src/app/service/user_service.ts",
-        "panel/src/app/service/user_transfer_service.ts"
+        "daemon/tsconfig.json",
+        "frontend/package-lock.json",
+        "frontend/package.json",
+        "frontend/src/widgets/PackageManager.vue",
+        "package-lock.json",
+        "panel/package-lock.json",
+        "panel/package.json",
+        "panel/src/app.ts",
+        "panel/src/app/service/user_export_service.ts"
       ]
     }
   ],
   "history": [
+    {
+      "version": "v4.9.5",
+      "release_notes": "## Change\n\n- chore: update root lockfile metadata\n- Feature and upstream updates\n\n## 变更\n\n- chore: update root lockfile metadata\n- v4.9.5：安全更新与卡密批量复制\n",
+      "release_notes_zh": "## 变更\n\n- chore: update root lockfile metadata\n- v4.9.5：安全更新与卡密批量复制",
+      "release_notes_en": "## Change\n\n- chore: update root lockfile metadata\n- Feature and upstream updates",
+      "date": "2026-11-10",
+      "released_at": "2026-11-10T12:12:21.675957+00:00",
+      "commits": [
+        {
+          "hash": "9fb251f1ebcc45702d89005dbd3a38d1da4e69a3",
+          "short_hash": "9fb251f",
+          "subject": "chore: update root lockfile metadata",
+          "category": "improvements",
+          "files": [
+            "package-lock.json"
+          ]
+        },
+        {
+          "hash": "cd58568e769ea8fc4d19529ace519f980804a5cf",
+          "short_hash": "cd58568",
+          "subject": "v4.9.5：安全更新与卡密批量复制",
+          "category": "updates",
+          "files": [
+            ".github/workflows/auto-build.yml",
+            ".nvmrc",
+            "common/package-lock.json",
+            "common/package.json",
+            "daemon/package-lock.json",
+            "daemon/package.json",
+            "daemon/src/routers/http_router.ts",
+            "daemon/src/service/http.ts",
+            "daemon/src/service/user_transfer_service.ts",
+            "daemon/tsconfig.json",
+            "frontend/package-lock.json",
+            "frontend/package.json",
+            "frontend/src/widgets/PackageManager.vue",
+            "package-lock.json",
+            "panel/package-lock.json",
+            "panel/package.json",
+            "panel/src/app.ts",
+            "panel/src/app/service/user_export_service.ts"
+          ]
+        }
+      ],
+      "source_repository": "HRxuan/MCSManager-Personal-Edition",
+      "release_url": "https://github.com/HRxuan/MCSManager-Personal-Edition/releases/tag/v4.9.5"
+    },
     {
       "version": "v4.9.4",
       "release_notes": "## Change\n\n- Feature and upstream updates\n\n## 变更\n\n- 新增用户数据备份与跨节点恢复\n",
